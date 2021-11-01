@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>04</title>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="monotony.theme.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body class="d-flex flex-column justify-content-around">
+
+<header class="bg-primary d-flex align-items-center" style="flex:1">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="col-12 mb-4">
+          <h2 class="text-center text-light">
+            Add something at the start of the array. Add something at the end of the array. (Using two different methods).
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<main class="d-flex align-items-center justify-content-center" style="flex:1">
+<div class="container">
+  <div class="row">
+
+    <div class="col-12 col-lg-6 my-4">  
+      <div class="card h-100">
+        <div class="card-body d-flex align-items-center justify-content-center">
+          <div class="row">             
+            <div class="col-12 mb-4">
+              <p class="text-center">['a', 'b', 'c', 'd']</p>
+
+              <input type="text" class="form-control text-center" id="inputAtTheStartId" placeholder="Add at the start of the array!">
+              <button type="submit" id="addAtTheStartSubmit" class="btn btn-primary mb-4">Add at the start</button>
+
+              <input type="text" class="form-control text-center" id="inputAtTheEndId" placeholder="Add at the end of the array!">
+              <button type="submit" id="addAtTheEndSubmit" class="btn btn-primary text-center">Add at the end</button>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+            <button type="reset" id="reset" class="btn btn-link">Reset</button>
+            </div>
+            <div class="col-12">
+              <pre><div id="result" class="text-center my-4"></div></pre>
+            </div>
+          </div> 
+        </div>
+      </div>      
+    </div>
+
+
+    <div class="col-12 col-lg-6 my-4">
+      <div class="card">
+        <div class="card-body">
+
+<pre>
+  let arr = ['a', 'b', 'c', 'd'];
+
+  // add something at the start of the array
+  // es5
+  // arr.unshift('start');
+  
+  //es6
+  arr = ['start', ...arr];
+  
+  // add something at the end begining of the array
+  // es5
+  // arr.push('end');
+  
+  //es6
+  arr = [...arr, 'end'];
+  
+  console.log(arr);
+</pre>
+
+        </div>
+      </div>      
+    </div>  
+
+  </div>
+</div>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

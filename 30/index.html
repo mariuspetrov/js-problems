@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>30</title>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="monotony.theme.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body class="d-flex flex-column justify-content-around">
+
+<header class="bg-primary d-flex align-items-center" style="flex:1">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="col-12 mb-4">
+          <h2 class="text-center text-light">Write a JavaScript program to check <br/> if a given string is upper case or not.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="d-flex align-items-center justify-content-center" style="flex:1">
+<div class="container">
+  <div class="row">
+
+    <div class="col-12 col-lg-5 my-4">  
+      <div class="card h-100">
+        <div class="card-body d-flex align-items-center justify-content-center">
+          <div class="row">             
+            <div class="col-12 mb-4">
+              <input type="text" class="form-control text-center" id="inputString" placeholder="Input string here!">
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+              <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+              <button type="reset" id="reset" class="btn btn-link">Reset</button>
+            </div>
+            <div class="col-12 text-center">
+              <pre><div id="result" class="my-4"></div></pre>
+            </div>
+          </div> 
+        </div>
+      </div>      
+    </div>
+
+    <div class="col-12 col-lg-7 my-4">
+      <div class="card">
+        <div class="card-body">
+
+<pre>
+const isUpperCase = str => str === str.toUpperCase();
+
+console.log(isUpperCase('ABC')); 
+console.log(isUpperCase('A3@$'));
+console.log(isUpperCase('aB4'));
+
+// Sample Output
+true
+true
+false
+
+</pre>
+
+        </div>
+      </div>      
+    </div>  
+
+  </div>
+</div>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

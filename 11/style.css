@@ -1,0 +1,19 @@
+html, body {height:100%;}
+
+.item-even {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  margin: 10px 0;
+}
+
+.item-odd {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: black;
+  margin: 10px 0;
+}
+
+button#addAtTheStartSubmit{width: 100%}
+button#addAtTheEndSubmit{width: 100%}
