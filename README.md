@@ -1,3 +1,31 @@
+
+# JSChallenge - JavaScript Interview Problems and Solutions.
+
+<br/>
+
+<table>
+<tr>
+<td width="350px">
+<img src="https://github.com/mariuspetrov/nimble/blob/main/app/images/nimble_350px.jpg" alt="nimble-engineer" width="350px"/>
+</td>
+  
+<td>
+<h2 align="center">Improve your JavaScript skills</h2> 
+<p align="center">Introducing JSChallenge: a comprehensive set of interview challenges and solutions.</p> 
+<p align="center">31</p>
+</td>
+</tr>
+</table>
+
+
+<br/>
+
+## Description
+This repository contains a collection of small problems that are commonly asked during JavaScript interviews, along with their solutions. The problems cover various topics such as data structures, algorithms, and core language concepts, and are a great way to prepare for your next interview. Whether you are a beginner or an experienced developer, this repository is a valuable resource for anyone looking to improve their JavaScript skills and showcase their understanding of the language.
+
+
+<hr/>
+
 1.  Function that takes a string as an argument and returns the frequency of the letters inside the string. <a href="https://mariuspetrov.github.io/01/index.html" target="_blank">Demo</a>
 2.  Return the most frequent character inside a string. <a href="https://mariuspetrov.github.io/02/index.html" target="_blank">Demo</a>
 3.  Write a function that takes a string as an input and return whether that string is a palindrome. <a href="https://mariuspetrov.github.io/03/index.html" target="_blank">Demo</a>
