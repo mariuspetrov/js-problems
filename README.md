@@ -12,7 +12,7 @@
 <td>
 <h2 align="center">Improve your JavaScript skills</h2> 
 <p align="center">Introducing JSChallenge: a comprehensive set of interview challenges and solutions.</p> 
-<p align="center">31</p>
+<p align="center">31 items</p>
 </td>
 </tr>
 </table>
