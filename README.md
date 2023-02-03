@@ -1,5 +1,5 @@
 
-# JSChallenge - JavaScript Interview Problems and Solutions.
+# JSChallenge - JavaScript Problems and Solutions.
 
 <br/>
 
