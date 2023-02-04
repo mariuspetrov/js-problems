@@ -1,4 +1,4 @@
-# <a href="https://mariuspetrov.github.io/">Go to website!</a> 
+# <a href="https://mariuspetrov.github.io/">mariuspetrov.github.io</a> 
 
 <table>
 <tr>
