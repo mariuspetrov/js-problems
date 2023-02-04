@@ -3,25 +3,8 @@
 
 <br/>
 
-<table>
-<tr>
-<td width="350px">
-<img src="https://raw.githubusercontent.com/mariuspetrov/js-challenge/main/js.png" alt="JSChallenge" width="350px"/>
-</td>
-  
-<td>
-<h2 align="center">Improve your JavaScript skills</h2> 
-<p align="center">Introducing JSChallenge: a comprehensive set of interview challenges and solutions.</p> 
-<p align="center">31 items</p>
-</td>
-</tr>
-</table>
-
-
-<br/>
-
 ## Description
-This repository contains a collection of small problems that are commonly asked during JavaScript interviews, along with their solutions. The problems cover various topics such as data structures, algorithms, and core language concepts, and are a great way to prepare for your next interview. Whether you are a beginner or an experienced developer, this repository is a valuable resource for anyone looking to improve their JavaScript skills and showcase their understanding of the language.
+This is a collection of small problems that are commonly asked during JavaScript interviews, along with their solutions. The problems cover various topics such as data structures, algorithms, and core language concepts, and are a great way to prepare for your next interview. Whether you are a beginner or an experienced developer, this repository is a valuable resource for anyone looking to improve their JavaScript skills and showcase their understanding of the language.
 
 
 <hr/>
