@@ -26,8 +26,8 @@
 </td>
   
 <td>
-<h2 align="center">Improve your JavaScript skills</h2> 
-<p align="center">Introducing JSChallenge: a comprehensive set of interview challenges and solutions. 
+<h2>Improve your JavaScript skills</h2> 
+<p>Introducing JSChallenge: a comprehensive set of interview challenges and solutions. 
 <a href="https://mariuspetrov.github.io/js-challenge/">Demo</a> /
 <a href="https://github.com/mariuspetrov/js-challenge/">Repository</a></p> 
 </td>
