@@ -6,7 +6,7 @@
 <table>
 <tr>
 <td width="350px">
-<img src="https://github.com/mariuspetrov/js-challenge/blob/main/js.png" alt="JSChallenge" width="350px"/>
+<img src="https://raw.githubusercontent.com/mariuspetrov/js-challenge/main/js.png" alt="JSChallenge" width="350px"/>
 </td>
   
 <td>
